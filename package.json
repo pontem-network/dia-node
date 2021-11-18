@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "cp ./wasm_resolver.js ./wasm/ && NODE_PATH=. node --experimental-wasm-modules index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
