@@ -1,0 +1,22 @@
+
+// Adding missed methods:
+// set_item,get_item,remove_item, request
+function set_item(key, value) {
+    console.log('set', key, value);
+    cache.put(key, value);
+    return {
+        Ok: null,
+    }
+}
+
+function get_item(key) {
+    console.log('get', key);
+    const item = cache.get(key);
+    if (item) {
+        return {
+            Ok: item,
+        };
+    } else {
+        return item
+    }
+}
