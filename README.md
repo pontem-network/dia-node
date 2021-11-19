@@ -12,6 +12,7 @@ Known issues:
 You need working Pontem node with opened RPC and WS endpoints.
 First deploy Dia contract and make account in Diem Standard Library, see [Dia README](https://github.com/pontem-network/dia#dia-smart-contracts).
 
+    vim ./contracts/set_value.move # Replace Dia address with correct one.
     cp .env.example .env
     npm install
 
