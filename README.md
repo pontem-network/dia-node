@@ -4,8 +4,8 @@ Posting oracle prices to Dia contract.
 
 Known issues:
 
-    * Comments in [set_value.move](contracts/set_value.move) breaks dovelight (should be fixed).
-    * Addresses parsing of dovelight (see large hex address, it should be fixed).
+* Comments in [set_value.move](contracts/set_value.move) breaks dovelight (should be fixed).
+* Addresses parsing of dovelight (see large hex address, it should be fixed).
 
 ### Installation 
 
